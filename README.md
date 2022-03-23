@@ -1,4 +1,4 @@
- # Python
+Python
 
 
 
@@ -39,10 +39,9 @@ while (x <= 9):
 else:
     print("Try again")
 
-Terms
 
 ```
 
 
 
-## Contact US-[Yashveer Soni](https://choosealicense.com/licenses/mit/)
+## Contact US-[Yashveer Soni](https://github.com/Yashveersoni123/Python-game)
