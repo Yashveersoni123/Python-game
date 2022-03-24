@@ -56,7 +56,7 @@ my_function()
 Pattern Printing
 
 
-```
+```python
 number1 = int(input("enter a number ->"))
 number2 = int(input("enter a 0 ya 1 ->"))
 new = bool(number2)
