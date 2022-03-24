@@ -1,7 +1,7 @@
-Python
+Python With Yashveer 
 
 
-
+Game name-Guess number game
 ```python
 
 
@@ -53,7 +53,26 @@ my_function()
 
 
 ```
+Pattern Printing
 
+
+```
+number1 = int(input("enter a number ->"))
+number2 = int(input("enter a 0 ya 1 ->"))
+new = bool(number2)
+print(new)
+if new == True:
+    for i in range(0, number1):
+        for j in range(0, i+1):
+            print("*", end=" ")
+        print(" ")
+elif new == False:
+
+    for i in range(0, number1):
+        for j in range(0, number1-i):
+            print("*", end=" ")
+        print(" ")
+```
 
 
 ## Contact US-[Yashveer Soni](https://github.com/Yashveersoni123/Python-game)
