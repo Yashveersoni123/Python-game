@@ -74,5 +74,43 @@ elif new == False:
         print(" ")
 ```
 
+Faulty Calculator
+
+```python
+# faulty calculator
+number = int(input("enter a number=>"))
+number1 = int(input("enter a second number=>"))
+sum = input("enter a opertorator")
+a = 77
+b = 555
+c = 4
+
+if sum == '+':
+    if number != 56 and number1 != 9:
+        if '+':
+            print("result =>",number+number1)
+    else:
+        print("result =>", a)
+if sum == '-':
+    if number != 26 and number1 != 4:
+        if '-':
+            print("result =>",number-number1)
+    else:
+        print("result =>", a)
+
+if sum == '*':
+    if number != 45 and number1 != 3:
+        if '*':
+            print("result =>", number*number1)
+    else:
+        print("result =>", b)
+if sum == '/':
+    if number != 56 and number1 != 6:
+        if '/':
+            print("result =>", number/number1)
+    else:
+        print("result =>", c)
+```
+
 
 ## Contact US-[Yashveer Soni](https://github.com/Yashveersoni123/Python-game)
