@@ -26,17 +26,14 @@ def my_function():
             print("you are very close you number")
         elif number < y and number <= 10:
             print("your guesses number is very low please increase")
-
         elif number < y and number >= 10:
             print("you are very close please increase")
         else:
             print("you lose")
             print("try again later !")
             break
-
         x = x+1
         print(9-x, "times pending ")
-
     else:
         print("Try again")
         z = input("what you will start a new game please enter Yes ->")
