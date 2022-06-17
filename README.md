@@ -1,4 +1,9 @@
 
+## 1-Guess Number
+
+
+
+```bash
 print("-------------find hidden number--------------")
 print("1- Game name = guess number Anything")
 print("2- total 5 chance are meet")
@@ -32,8 +37,10 @@ def my_function():
             print("you lose")
             print("try again later !")
             break
+
         x = x+1
         print(9-x, "times pending ")
+
     else:
         print("Try again")
         z = input("what you will start a new game please enter Yes ->")
@@ -42,3 +49,6 @@ def my_function():
 
 
 my_function()
+
+```
+
