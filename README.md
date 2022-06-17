@@ -1,9 +1,3 @@
-Python With Yashveer 
-
-
-Game name-Guess number 
-```python
-
 
 print("-------------find hidden number--------------")
 print("1- Game name = guess number Anything")
@@ -14,17 +8,16 @@ print("5- copy the code and paste in the following link")
 print("6- https://www.programiz.com/python-programming/online-compiler/")
 print("lets get start")
 
-
 def my_function():
     x = 1
     y = 18
-    while (x <= 9):
+    while x <= 9:
         number = int(input("please enter a number ->"))
         if number == y:
             print("-------------------YOU WINNER----------------------")
             print("Total no. of guesses =>", x)
-            z = int(input("what you will start a new game please enter 1 ->"))
-            if(z == 1):
+            z = input("what you will start a new game please enter Yes ->")
+            if(z == "Yes"):
                 my_function()
             break
         elif number > y and number >= 25:
@@ -46,71 +39,9 @@ def my_function():
 
     else:
         print("Try again")
+        z = input("what you will start a new game please enter Yes ->")
+        if (z == "Yes"):
+            my_function()
 
 
 my_function()
-
-
-
-```
-Pattern Printing
-
-
-```python
-number1 = int(input("enter a number ->"))
-number2 = int(input("enter a 0 ya 1 ->"))
-new = bool(number2)
-print(new)
-if new == True:
-    for i in range(0, number1):
-        for j in range(0, i+1):
-            print("*", end=" ")
-        print(" ")
-elif new == False:
-
-    for i in range(0, number1):
-        for j in range(0, number1-i):
-            print("*", end=" ")
-        print(" ")
-```
-
-Faulty Calculator
-
-```python
-# faulty calculator
-number = int(input("enter a number=>"))
-number1 = int(input("enter a second number=>"))
-sum = input("enter a opertorator")
-a = 77
-b = 555
-c = 4
-
-if sum == '+':
-    if number != 56 and number1 != 9:
-        if '+':
-            print("result =>",number+number1)
-    else:
-        print("result =>", a)
-if sum == '-':
-    if number != 26 and number1 != 4:
-        if '-':
-            print("result =>",number-number1)
-    else:
-        print("result =>", a)
-
-if sum == '*':
-    if number != 45 and number1 != 3:
-        if '*':
-            print("result =>", number*number1)
-    else:
-        print("result =>", b)
-if sum == '/':
-    if number != 56 and number1 != 6:
-        if '/':
-            print("result =>", number/number1)
-    else:
-        print("result =>", c)
-```
-
-
-## Contact US-[Yashveer Soni](https://github.com/Yashveersoni123/Python-game)
