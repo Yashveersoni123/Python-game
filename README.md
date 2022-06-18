@@ -55,7 +55,8 @@ my_function()
 ## 2- Stone, Paper, Scissors Games
 
 
-```print("This GAME name is Stone, Paper, Scissors")
+```bash
+print("This GAME name is Stone, Paper, Scissors")
 print("you have a total of 5 chance")
 print("this game is only play two-member first is you/user and second is computer")
 print("enjoy this game")
