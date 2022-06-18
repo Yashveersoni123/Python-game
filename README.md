@@ -52,3 +52,82 @@ my_function()
 
 ```
 
+## 2- Stone, Paper, Scissors Games
+
+
+```print("This GAME name is Stone, Paper, Scissors")
+print("you have a total of 5 chance")
+print("this game is only play two-member first is you/user and second is computer")
+print("enjoy this game")
+print("choose (stone, paper, scissors)")
+
+import random
+s="stone"
+p="paper"
+sys="scissors"
+def mygame():
+    user_score = 0
+    cpu_score = 0
+    i = 1
+    a = 0
+    b =0
+    while i<=5:
+        user = input("User choosing ->")
+        lst=[s,p,sys]
+        cpu=random.choice(lst)
+        if (user==cpu):
+            print("cpu choosing->",cpu)
+            print("Tie")
+        elif (user==s and cpu==p):
+            print("cpu chossing->", cpu)
+            print("cpu win")
+            cpu_score+=1
+            print("cpu score->", cpu_score)
+        elif (user==p and cpu==s):
+            print("cpu chossing->", cpu)
+            print("user win")
+            user_score += 1
+            print("user score->", user_score)
+        elif (user==p and cpu==sys):
+            print("cpu chossing ->", cpu)
+            print("cpu win")
+            cpu_score += 1
+            print("cpu score->", cpu_score)
+        elif (user==sys and cpu==p):
+            print("cpu chossing->", cpu)
+            print("user win")
+            user_score += 1
+            print("user score->", user_score)
+        elif(user==sys and cpu==s):
+            print("cpu chossing->", cpu)
+            print("cpu win")
+            cpu_score += 1
+            print("cpu score->", cpu_score)
+        elif(user==s and cpu==sys):
+            print("cpu chossing ->", cpu)
+            print("user win")
+            user_score += 1
+            print("user score->", user_score)
+
+        i+=1
+    if user_score == cpu_score:
+        print("-----------------------TIE------------------------")
+    elif user_score>cpu_score:
+        print("-----------------------USER WIN-------------------------")
+    else:
+        print("-----------------------CPU WIN--------------------------")
+    print("---------user score ->",user_score)
+    print("---------cpu score ->",cpu_score)
+    back=input("you can retry the game please enter 'Yes' >")
+    if(back=="Yes" or back=="yes" or back=="YES"):
+        mygame()
+
+mygame()
+
+
+```
+
+
+
+
+
