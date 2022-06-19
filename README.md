@@ -8,14 +8,15 @@ print("-------------find hidden number--------------")
 print("1- Game name = guess number Anything")
 print("2- total 5 chance are meet")
 print("3- don't try to see the hidden number")
+print("1 to 25")
 print("4- This code is run in the python compiler")
 print("5- copy the code and paste in the following link")
 print("6- https://www.programiz.com/python-programming/online-compiler/")
 print("lets get start")
-
+import random
 def my_function():
     x = 1
-    y = 18
+    y = random.randint(1, 25)
     while x <= 9:
         number = int(input("please enter a number ->"))
         if number == y:
